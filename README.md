@@ -14,7 +14,7 @@ Cloud Insight Agent 通过 [python-rrdtool](https://pypi.python.org/pypi/python-
 
 ```
 $ sudo mkdir -p /var/lib/cacti/rra
-$ sudo wget -O /etc/mysql/mysqld.cnf https://raw.githubusercontent.com/startover/cloudinsight-docker-cacti/master/mysqld.cnf
+$ sudo wget -O /etc/mysql/mysqld.cnf https://raw.githubusercontent.com/cloudinsight/cloudinsight-docker-cacti/master/mysqld.cnf
 ```
 
 * 挂载文件权限设置
