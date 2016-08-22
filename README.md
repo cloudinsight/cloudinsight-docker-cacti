@@ -2,7 +2,7 @@
 
 ## 原理介绍
 
-Cloudinsight Agent 通过 [python-rrdtool](https://pypi.python.org/pypi/python-rrdtool) 读取 Cacti 生成的 rrd 文件（在 cacti 根目录的 rra 文件夹下），并将其中的数据解析后上传至 [Cloudinsight](http://docs-ci.oneapm.com/) 进行可视化。
+Cloudinsight Agent 通过 [python-rrdtool](https://pypi.python.org/pypi/python-rrdtool) 读取 Cacti 生成的 rrd 文件（在 cacti 根目录的 rra 文件夹下），并将其中的数据解析后上传至 [Cloudinsight](http://cloudinsight.oneapm.com/) 进行可视化。
 
 ## Cacti 安装配置
 
